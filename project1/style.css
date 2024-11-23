@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url(images/background-adare-restaurant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+header {
+  height: 118px;
+  text-align: center;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.438);
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+main {
+  height: 400px;
+  padding-top: 80px;
+  padding-left: 240px;
+  padding-right: 240px;
+  text-align: center;
+}
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.438);
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 84px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer p {
+  color: white;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.maps {
+  padding-bottom: 100px;
+  text-align: center;
+}
+.maps iframe {
+  display: block; /* Đảm bảo các iframe không nằm cạnh nhau (nếu có inline styles khác) */
+  margin-bottom: 20px; /* Khoảng cách giữa các iframe */
+}
+
+.maps iframe:last-child {
+  margin-bottom: 0; /* Loại bỏ margin cho iframe cuối cùng */
+}
