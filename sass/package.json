@@ -1,0 +1,14 @@
+{
+  "name": "simple-stater",
+  "version": "1.0.0",
+  "description": "Stater template for Booststrap",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css"
+  },
+  "author": "Vy",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.82.0"
+  }
+}
